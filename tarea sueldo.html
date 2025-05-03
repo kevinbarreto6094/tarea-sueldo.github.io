@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+
+<script>
+
+var nombre = prompt("Ingrese su nombre");
+
+var sueldo = parseFloat(prompt("¿Cuánto es su sueldo? "));
+
+if (sueldo >= 0 && sueldo <= 1130) {
+  
+    alert(nombre + ", usted es categoría Básica.");
+} else if (sueldo > 1130 && sueldo <= 2500) {
+    
+    alert(nombre + ", usted es categoría Intermedia.");
+} else if (sueldo > 2500 && sueldo <= 5500) {
+
+    alert(nombre + ", usted es categoría Alta.");
+} else if (sueldo > 5500) {
+
+    alert(nombre + ", usted es categoría Premium.");
+} 
+</script>
+
+</body>
+</html>
